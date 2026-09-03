@@ -1,4 +1,6 @@
 import React from 'react';
+import WhatsAppIcon from './WhatsAppIcon';
+import { WHATSAPP_CONFIG } from '../data/carouselData';
 
 export default function Hero() {
   return (
@@ -51,35 +53,24 @@ export default function Hero() {
             हमारे यहाँ लाइट और वायरिंग के सभी सामान <strong className="text-amber-300 font-semibold">उचित दाम</strong> पर मिलते हैं। टॉप ब्रांड्स, सुरक्षित केबल्स और आकर्षक डेकोरेटिव झूमर एक ही छत के नीचे।
           </p>
 
-          {/* Call contact pill */}
-          <div className="inline-flex items-center gap-3 p-2.5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md w-fit">
-            <div className="w-9 h-9 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold">
-              <span className="material-symbols-outlined text-[20px]">phone_in_talk</span>
-            </div>
-            <div className="pr-2">
-              <span className="block text-[11px] text-slate-300 font-medium">कॉल करें</span>
-              <span className="text-base font-bold text-white tracking-wider">
-                7905383563
-              </span>
-            </div>
-          </div>
-
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center gap-3.5 pt-1">
+          <div className="flex flex-wrap items-center gap-3.5 pt-2">
             <a
-              className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white transition-all duration-300 font-bold text-sm flex items-center justify-center gap-2 shadow-lg glow-btn"
+              className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white transition-all duration-300 font-bold text-sm flex items-center justify-center gap-2 shadow-lg glow-btn active:scale-95"
               href="tel:7905383563"
             >
               <span className="material-symbols-outlined text-[20px]">phone_in_talk</span>
-              <span>Call Now</span>
+              <span>Call: 7905383563</span>
             </a>
-            <a
-              className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-white/15 hover:bg-white/25 border border-white/25 backdrop-blur-md text-white transition-all duration-300 font-bold text-sm flex items-center justify-center gap-2"
-              href="#products"
+            {/* <a
+              className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-emerald-600 hover:bg-emerald-700 border border-emerald-400/40 text-white transition-all duration-300 font-bold text-sm flex items-center justify-center gap-2 active:scale-95 shadow-lg"
+              href={WHATSAPP_CONFIG.chatUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <span className="material-symbols-outlined text-[20px] text-amber-300">grid_view</span>
-              <span>View Products</span>
-            </a>
+              <WhatsAppIcon size={20} className="text-white" />
+              <span>WhatsApp Chat</span>
+            </a> */}
           </div>
         </div>
       </div>

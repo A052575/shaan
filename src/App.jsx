@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PromoCarousel from './components/PromoCarousel';
 import Categories from './components/Categories';
 import FeaturedProducts from './components/FeaturedProducts';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -8,7 +9,6 @@ import LightingShowcase from './components/LightingShowcase';
 import TrustSection from './components/TrustSection';
 import CtaBanner from './components/CtaBanner';
 import ContactSection from './components/ContactSection';
-import MobileBottomBar from './components/MobileBottomBar';
 import Footer from './components/Footer';
 import MobileNavigation from './components/MobileNavigation';
 
@@ -135,6 +135,7 @@ export default function App() {
 
       <main className="flex-1 flex flex-col relative w-full pt-20 pb-20 max-w-7xl mx-auto px-3 sm:px-6">
         <Hero />
+        <PromoCarousel />
         <Categories categories={categories} />
         <FeaturedProducts featuredProducts={featuredProducts} />
         <WhyChooseUs />
@@ -147,7 +148,6 @@ export default function App() {
           handleEnquirySubmit={handleEnquirySubmit}
           enquirySubmitted={enquirySubmitted}
         />
-        <MobileBottomBar />
         <Footer />
       </main>
 
