@@ -29,8 +29,9 @@ export default function ContactSection({
                 <span className="material-symbols-outlined text-[26px]">storefront</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-slate-900">Sufiyan Light Shop</span>
-                <span className="text-xs text-slate-500 font-medium">सुफियान लाइट शॉप • हंसवर</span>
+                <span className="text-lg font-bold text-slate-900">Indian Electric & Lighting Hub</span>
+                <span className="text-xs text-slate-500 font-medium">इंडियन इलेक्ट्रिक & लाइटिंग हब
+ • हंसवर</span>
               </div>
             </div>
 

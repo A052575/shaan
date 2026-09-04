@@ -35,7 +35,7 @@ export default function WhyChooseUs({ features }) {
           हमारी विशेषता
         </span>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          सुफियान लाइट शॉप <span className="text-amber-600">क्यों चुनें?</span>
+          Indian Electric <span className="text-amber-600"> & </span>  Lighting Hub <span className="text-amber-600">क्यों चुनें?</span>
         </h2>
         <p className="text-sm text-slate-600">
           विश्वसनीयता, तकनीकी सुरक्षा और उचित दाम — हमारे हर ग्राहक का प्रथम अधिकार
