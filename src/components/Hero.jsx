@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroVideo from "../assets/new-hero-video.mp4";
 export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden rounded-3xl mt-4 border border-slate-200/80 shadow-xl bg-slate-900 group" id="home">
@@ -12,8 +12,7 @@ export default function Hero() {
         /> */}
         <video
           className="absolute inset-0 w-full h-full object-cover object-center"
-          // src="/src/assets/s-Video 2026-09-03 at 7.47.18 PM.mp4"
-          src="../assets/new-hero-video.mp4"
+          src={heroVideo}
 
           autoPlay
           muted
