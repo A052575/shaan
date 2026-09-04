@@ -34,7 +34,7 @@ export default function Header({
             </div>
             <span className="text-base sm:text-lg font-extrabold leading-tight text-white whitespace-nowrap">
               Indian{" "}
-              <span className="text-amber-400"> Electric & Light Hub</span>
+              <span className="text-amber-400"> Electric & Lighting Hub</span>
             </span>
           </a>
         </div>
