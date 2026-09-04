@@ -6,13 +6,13 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between gap-8 max-w-7xl mx-auto">
         <div className="flex flex-col gap-3.5 max-w-md">
           <div className="flex items-center gap-3">
-            <div className="p-1.5 rounded-xl bg-white/10 border border-white/20">
-              <img
-                alt="Sufiyan Light Shop Logo"
-                className="h-8 w-auto object-contain"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4sJZsgzJbe70verzWLUSrHZvfiQnRJmaveh4uyVUWJskIjMwvRpqkl5ozWLlL2ussvVJvHsul3Z_IM0TWVV9WLFKKZ2FKk5YR9pIUawl8Z5vvHezydvsLXClVshgkTyK3DE_yL30EkbKsakzfCbrfxar5wCBak72S0CXrkXb0M4AmgbP9cOsRrJN_V1IvabBiSMoBxDCpLfOwqidHzuGBDN5RWNRZA_aISwBNFecU66MVbJqTNKfk7w"
-              />
-            </div>
+              <div className="p-1.5 rounded-xl bg-white/10 border border-white/20">
+        <img
+          alt="Sufiyan Light Shop Logo"
+          className="h-12 w-auto object-contain"
+          src="/src/assets/main-logo.png"
+        />
+      </div>
             <span className="text-xl font-extrabold text-white">
               Sufiyan <span className="text-amber-400">Light Shop</span>
             </span>
