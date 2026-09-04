@@ -25,9 +25,9 @@ export default function Header({
           <a href="#home" className="flex items-center gap-2.5 group">
             <div className="flex items-center p-1.5 rounded-xl bg-white/10  shadow-[0_5px_16px_rgba(0,0,0,0.2)] transition-transform duration-300 group-hover:-rotate-1">
               <img
-                alt="Sufiyan p.p Logo"
+                alt="indian logo"
                 className="h-10 w-auto max-w-[125px] object-contain"
-                src="/src/assets/main-logo.png"
+                src="../assets/main-logo.png"
               />
             </div>
             <span className="text-base sm:text-lg font-extrabold leading-tight text-white whitespace-nowrap">

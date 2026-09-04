@@ -13,7 +13,7 @@ export default function Hero() {
         <video
           className="absolute inset-0 w-full h-full object-cover object-center"
           // src="/src/assets/s-Video 2026-09-03 at 7.47.18 PM.mp4"
-          src="/src/assets/new-hero-video.mp4"
+          src="../assets/new-hero-video.mp4"
 
           autoPlay
           muted
