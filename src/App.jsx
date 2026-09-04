@@ -29,12 +29,12 @@ export default function App() {
   };
 
   const navItems = [
-    { label: 'Home', path: 'home', href: 'home' },
+    { label: 'Home', path: 'home', href: '#home' },
     { label: 'About', path: 'about', href: '#about' },
-    { label: 'Products (हमारे प्रोडक्ट्स)', path: 'products', href: 'products' },
-    { label: 'Lighting Showcase (लाइट्स)', path: 'lighting-showcase', href: 'lighting-showcase' },
-    { label: 'Why Us (खासियत)', path: 'why-us', href: 'why-us' },
-    { label: 'Contact (संपर्क)', path: 'contact', href: 'contact' },
+    { label: 'Products (हमारे प्रोडक्ट्स)', path: 'products', href: '#products' },
+    { label: 'Lighting Showcase (लाइट्स)', path: 'lighting-showcase', href: '#lighting-showcase' },
+    { label: 'Why Us (खासियत)', path: 'why-us', href: '#why-us' },
+    { label: 'Contact (संपर्क)', path: 'contact', href: '#contact' },
   ];
 
   const categories = [
