@@ -29,7 +29,7 @@ export default function Header({
               <img
                 src={logo}
                 className="h-10 w-auto max-w-[125px] object-contain"
-                alt="Indian Electric & Light Hub"
+                alt="Indian Electric & Lighting Hub"
               />
             </div>
             <span className="text-base sm:text-lg font-extrabold leading-tight text-white whitespace-nowrap">
