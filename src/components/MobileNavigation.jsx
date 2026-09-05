@@ -24,7 +24,7 @@ export default function MobileNavigation({ activeTab, setActiveTab }) {
                   ? 'text-amber-600 font-bold' 
                   : 'text-slate-500 hover:text-slate-900'
               }`}
-            >
+            >   
               <span className="material-symbols-outlined text-[22px]">
                 {item.icon}
               </span>

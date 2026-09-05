@@ -6,12 +6,7 @@ export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden rounded-3xl mt-4 border border-slate-200/80 shadow-xl bg-slate-900 group" id="home">
       <div className="relative min-h-[500px] md:min-h-[580px] flex items-end w-full">
-        {/* Background Image */}
-        {/* <img
-          alt="Sufiyan Light Shop Showroom in Hanswar"
-          className="absolute inset-0 w-full h-full object-cover object-center transform scale-100 group-hover:scale-105 transition-transform duration-1000 ease-out"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9K3z47KXdoDXGQx53q1p3SR3hFX4pILmJTubI1DnicHBSeR_ulku5mRXYAQYliyoL_VbWFdB0m8yID7fQYuGw_mJe3D-719j83xQ671HhPqlXoNiuwMuHshAjNSZxlAv1CR_wyjX7BmPY57hqqNmaX-VOSxWGNNo0wXoyaeymnpX2UwBECy3trrk4hyfJSVkGQGcoearDI85wp6Uxdp_Exd4w7viW5SNnFhMDB9bXkkQgg0V6rYRPhw"
-        /> */}
+       
         <video
           className="absolute inset-0 w-full h-full object-cover object-center"
           src={heroVideo}
@@ -53,16 +48,17 @@ export default function Hero() {
           </p>
 
           {/* CTA Buttons */}
-        ```jsx
-<div className="flex flex-col sm:flex-row gap-3 pt-2 w-full">
+        
+
+<div className="grid grid-cols-2 gap-3 pt-2 w-full">
 
   {/* Call Button */}
   <a
     href="tel:7905383563"
-    className="w-full sm:w-auto min-h-[48px] px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white font-bold text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
+    className="min-h-[48px] px-3 sm:px-6 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
   >
-    <FiPhoneCall className="text-lg" />
-    Call: 7905383563
+    <FiPhoneCall className="text-lg shrink-0" />
+    <span>Call: 7905383563</span>
   </a>
 
   {/* WhatsApp Button */}
@@ -70,13 +66,15 @@ export default function Hero() {
     href="https://wa.me/917905383563?text=Hello%2C%20I%20need%20information%20about%20lights%20and%20wiring"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-full sm:w-auto min-h-[48px] px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
+    className="min-h-[48px] px-3 sm:px-6 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
   >
-    <FaWhatsapp className="text-lg" />
-    WhatsApp
+    <FaWhatsapp className="text-lg shrink-0" />
+    <span>WhatsApp</span>
   </a>
 
 </div>
+```
+
 ```
 
         </div>
