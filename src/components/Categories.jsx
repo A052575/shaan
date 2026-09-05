@@ -9,7 +9,7 @@ export default function Categories({ categories }) {
           <span className="text-xs uppercase tracking-wider font-bold">All Electricals</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          <span className="text-amber-600">(Product Categories)</span>
+          <span className="text-amber-600">Product Categories</span>
         </h2>
         <p className="text-sm sm:text-base text-slate-600 max-w-xl">
           Browse Our Electrical &amp; Lighting Range — सभी आधुनिक व सुरक्षित उत्पाद
