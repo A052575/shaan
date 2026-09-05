@@ -15,7 +15,7 @@ export default function Footer() {
               />
             </div>
             <span className="text-xl font-extrabold text-white">
-              Sufiyan <span className="text-amber-400">Light Shop</span>
+              Indian <span className="text-amber-400">Electric & Lighting Hub</span>
             </span>
           </div>
           <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
