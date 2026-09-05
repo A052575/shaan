@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsapp } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
 import heroVideo from "../assets/new-hero-video.mp4";
 export default function Hero() {
   return (
@@ -52,27 +53,32 @@ export default function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center gap-3.5 pt-2">
-            <a
-              className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white transition-all duration-300 font-bold text-sm flex items-center justify-center gap-2 shadow-lg glow-btn active:scale-95"
-              href="tel:7905383563"
-            >
-              <span className="material-symbols-outlined text-[20px]">phone_in_talk</span>
-              <span>Call: 7905383563</span>
-            </a>
-           ```jsx
-<a
-  href="https://wa.me/917905383563?text=Hello%2C%20I%20need%20information%20about%20lights%20and%20wiring"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex-1 sm:flex-none min-h-[48px] px-7 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 transition-all duration-300 active:scale-95 shadow-lg"
->
-  <FaWhatsapp className="text-xl" />
-  WhatsApp Chat
-</a>
+        ```jsx
+<div className="flex flex-col sm:flex-row gap-3 pt-2 w-full">
+
+  {/* Call Button */}
+  <a
+    href="tel:7905383563"
+    className="w-full sm:w-auto min-h-[48px] px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 hover:text-white font-bold text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
+  >
+    <FiPhoneCall className="text-lg" />
+    Call: 7905383563
+  </a>
+
+  {/* WhatsApp Button */}
+  <a
+    href="https://wa.me/917905383563?text=Hello%2C%20I%20need%20information%20about%20lights%20and%20wiring"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto min-h-[48px] px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 transition-all duration-300 shadow-lg active:scale-95"
+  >
+    <FaWhatsapp className="text-lg" />
+    WhatsApp
+  </a>
+
+</div>
 ```
 
-          </div>
         </div>
       </div>
     </section>
