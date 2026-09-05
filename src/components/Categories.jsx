@@ -12,7 +12,7 @@ export default function Categories({ categories }) {
           <span className="text-amber-600">Product Categories</span>
         </h2>
         <p className="text-sm sm:text-base text-slate-600 max-w-xl">
-          Browse Our Electrical &amp; Lighting Range — सभी आधुनिक व सुरक्षित उत्पाद
+          Browse Our Electrical &amp; Lighting Range
         </p>
       </div>
 
